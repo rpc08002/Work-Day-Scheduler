@@ -1,3 +1,2 @@
-var date = moment().format('LL'); 
-document.getElementById("displayJsDate").textContent = date; 
+document.getElementById("displayJsDate").textContent = moment().format('LL'); 
 
