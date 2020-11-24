@@ -15,10 +15,10 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: lightblue;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid navy;
 }
 
 .description{
@@ -74,4 +74,8 @@ ul.time {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
+}
+
+hr {
+  margin-bottom: -2rem;
 }
