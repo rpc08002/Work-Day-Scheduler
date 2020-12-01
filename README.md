@@ -1,11 +1,14 @@
 # Work Day Scheduler
-Third-Party APIs: 
+Third-Party APIs
 
 ## Ryan Curtin's Work Day Scheduler Links:
 * [Work Day Scheduler GitHub Page](https://github.com/rpc08002/Work-Day-Scheduler)
 * [Work Day Scheduler Live Webpage](https://rpc08002.github.io/Work-Day-Scheduler/)
 
+### Mock-Up
 
+### Summary
+* 
 
 ```
 GIVEN I am using a daily planner to create a schedule
@@ -21,12 +24,7 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
-```
 
-
-## Mock-Up
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
 
 ### Authors
