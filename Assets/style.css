@@ -1,9 +1,10 @@
+/* Body Section Styling */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
+/* Text Area Section Styling */
 textarea{
   background: transparent;
   border: none;
@@ -12,7 +13,7 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* Jumbotron Section Styling */
 .jumbotron {
   text-align: center;
   background-color: lightblue;
@@ -20,43 +21,43 @@ textarea{
   border-radius: 0;
   border-bottom: 5px solid navy;
 }
-
+/* Description Section Styling*/
 .description{
   white-space: pre-wrap;
 }
-
+/* Time Block Section Styling */
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
-
+/* Row Section Styling */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
+/* Hour Section Styling */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/* Time Block Styling */
 .past {
   background-color: #b9b9b9d7;
   color: white;
 }
-
+/* Time Block Styling */
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/* Time Block Styling */
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+/* Button Styling */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
