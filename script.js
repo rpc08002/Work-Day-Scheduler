@@ -54,11 +54,9 @@ time9 = time9.format('hh:mm A');
 $(".block9").text(time9);
 
 function testTime() {
-    // Add time1 9AM
     time1 = moment().startOf('day').add(9, "hours");
-    // Adjusts current time to the hour
     currentTime = currentTime.startOf("hour");
-    // Add time1 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time1)) {
         $(".form9").addClass("past");
     }
@@ -68,9 +66,9 @@ function testTime() {
     else if (currentTime.isSame(time1)) {
         $(".form9").addClass("present");
     };
-    // Add time2 10AM
+    
     time2 = moment().startOf('day').add(10, "hours");
-    // Add time2 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time2)) {
         $(".form10").addClass("past");
     }
@@ -80,9 +78,9 @@ function testTime() {
     else if (currentTime.isSame(time2)) {
         $(".form10").addClass("present");
     };
-    // time3 11AM
+
     time3 = moment().startOf('day').add(11, "hours");
-    // Add time3 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time3)) {
         $(".form11").addClass("past");
     }
@@ -92,9 +90,9 @@ function testTime() {
     else if (currentTime.isSame(time3)) {
         $(".form11").addClass("present");
     };
-    // time4 12PM
+
     time4 = moment().startOf('day').add(12, "hours");
-    // Add time4 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time4)) {
         $(".form12").addClass("past");
     }
@@ -104,9 +102,9 @@ function testTime() {
     else if (currentTime.isSame(time4)) {
         $(".form12").addClass("present");
     };
-    // time5 1PM
+
     time5 = moment().startOf('day').add(13, "hours");
-    // Add time5 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time5)) {
         $(".form1").addClass("past");
     }
@@ -116,9 +114,9 @@ function testTime() {
     else if (currentTime.isSame(time5)) {
         $(".form1").addClass("present");
     };
-    // time6 2PM
+
     time6 = moment().startOf('day').add(14, "hours");
-    // Add time6 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time6)) {
         $(".form2").addClass("past");
     }
@@ -128,9 +126,9 @@ function testTime() {
     else if (currentTime.isSame(time6)) {
         $(".form2").addClass("present");
     };
-    // time7 3M
+
     time7 = moment().startOf('day').add(15, "hours");
-    // Add time7 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time7)) {
         $(".form3").addClass("past");
     }
@@ -140,9 +138,9 @@ function testTime() {
     else if (currentTime.isSame(time7)) {
         $(".form3").addClass("present");
     };
-    // time8 4pm
+
     time8 = moment().startOf('day').add(16, "hours");
-    // Add time8 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time8)) {
         $(".form4").addClass("past");
     }
@@ -152,9 +150,9 @@ function testTime() {
     else if (currentTime.isSame(time8)) {
         $(".form4").addClass("present");
     };
-    // time9 5pm
+
     time9 = moment().startOf('day').add(17, "hours");
-    // Add time9 if/else
+    // If/else for Time Block/Changes CSS of Text Field
     if (currentTime.isAfter(time9)) {
         $(".form5").addClass("past");
     }
@@ -165,3 +163,4 @@ function testTime() {
         $(".form5").addClass("present");
     };
 }
+testTime();
