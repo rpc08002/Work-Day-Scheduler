@@ -6,6 +6,7 @@ Third-Party APIs
 * [Work Day Scheduler Live Webpage](https://rpc08002.github.io/Work-Day-Scheduler/)
 
 ### Mock-Up
+![Workday Scheduler](Assets/workday.png)
 
 ### Summary
 * Moment.js is pulled from the web in order to work with the date and times.
@@ -21,7 +22,6 @@ Third-Party APIs
 * JavaScript Page
 * Moment JavaScript Page pulled from the web
 * CSS Page
-
 
 ### Authors
 * Ryan Curtin
