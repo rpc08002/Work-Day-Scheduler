@@ -8,23 +8,19 @@ Third-Party APIs
 ### Mock-Up
 
 ### Summary
-* 
+* Moment.js is pulled from the web in order to work with the date and times.
+* HTML, CSS and JavaScript work together to allow the user to plan out their day on a 9AM-5PM schedule.
+* A user can save the inputted information to local storage.
+* The input fields' CSS is manipulated using moment.js time conversions comparing to the actual time.
+* Gray shows the time has past, red is the current hour block, and green is in the future.
+* Bootstrap was utilized to style the text fields and buttons.
+* Font Awesome was utilized to style the icons.
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-
+### Features
+* HTML Page
+* JavaScript Page
+* Moment JavaScript Page pulled from the web
+* CSS Page
 
 
 ### Authors
